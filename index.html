@@ -32,53 +32,32 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html" title="Homepage"
-          >Patricia Kavanaugh</a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="index.html"
-                tilte="Homepage"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="about.html"
-                title="About Patricia kavanaugh"
-                >About me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="about.html#contact"
-                title="Contact Patricia kavanaugh"
-                >Contact me</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="index.html">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt=""
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="work.html">Work</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋 Hello, I am</p>
       <h1>Patricia Kavanaugh</h1>
@@ -100,8 +79,8 @@
       </div>
       <p class="text-center mt-5">Check out my best projects</p>
     </div>
-    <br/>
-<br/>
+    <br />
+    <br />
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
@@ -128,7 +107,11 @@
               engine, API integration, wind speed, weather description, and
               weather icon (no fake data).
             </p>
-            <a href="https://vanilla-weather-app-pk.netlify.app/" class="primary-link">Learn more</a>
+            <a
+              href="https://vanilla-weather-app-pk.netlify.app/"
+              class="primary-link"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -147,11 +130,12 @@
               different dates and times of different locations in different time
               zones / A select element with 3 different locations/ The ability
               to see the date and time of the user's current location.
-</p>
-              <a href="https://world-clock-projectpk.netlify.app/" class="primary-link"
-                >Learn more</a
-              >
             </p>
+            <a
+              href="https://world-clock-projectpk.netlify.app/"
+              class="primary-link"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
